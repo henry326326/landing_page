@@ -1,0 +1,133 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.center_box{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+
+}
+.header .center_box{
+    gap: 12px;
+}
+.header .center_box div{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header .center_box #first_link{
+    margin-left: auto;
+}
+.first_section{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    gap: 48px;
+}
+.first_section .box{
+    width: 400px;
+}
+.first_section #hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.first_section #subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.first_section button{
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: white;
+    padding: 4px 16px;
+    border: 0;
+    margin-top: 16px;
+}
+.first_section #image_place{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 12px;
+}
+.second_section #information_header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 48px;
+}
+.second_section #information_content{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.second_section #information_content .block{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second_section .round_rec{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+.second_section .text{
+    color: gray;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+.third_section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 48px;
+}
+.third_section .content{
+    width: 660px;
+}
+.third_section .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.third_section .name{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
